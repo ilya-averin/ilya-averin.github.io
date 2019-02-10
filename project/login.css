@@ -1,0 +1,78 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background-image: url(img/air-12-5-4-256gb-slv.png);
+	/*background-attachment: fixed;
+	background-size: 901px 750px;*/
+	background-size: cover;
+}
+.signin{
+	background: rgb(44,62,80,0.7);
+	padding: 40px;
+	width: 250px;
+	margin: auto;
+	margin-top: 80px;
+	height: 400px;
+	margin-left: 180px; 	/*расстояние слева*/
+	border-radius: 3px;	
+}
+form{
+	width: 240px;
+	text-align: center;
+}
+input
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 15px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=button]
+{
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 5px;   /*button*/
+	cursor: pointer;
+	color: #fcac45;
+	border: 1px solid #fcac45;
+	background-color: transparent;
+}
+input[type=button]:hover
+{
+	color: #181818;
+	background-color: #fcac45;
+	border-color: #fcac45;
+	box-shadow: 0 0 5px rgb(255, 184, 77);
+}
+h2{
+	color: white;
+}
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+a:hover{
+	color: skyblue;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+::placeholder {
+	color: aliceblue;
+	opacity: 0.8;
+}

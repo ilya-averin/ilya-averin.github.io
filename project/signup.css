@@ -1,0 +1,65 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background-image: url(img/xmi.jpg);
+	background-size: cover;
+}
+.signup{
+	background: rgb(42,62,80,0.7);
+	padding: 40px;
+	width: 250px;
+	margin:  auto;
+	height: 470px;
+	/*margin-top: 80px;*/
+	margin-left: 180px;
+	/*margin: 0 auto;*/
+	border-radius: 3px;
+	margin-top: 80px;
+}
+form{
+	width: 240px;
+	text-align: center;
+}
+input{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=button]
+{
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 5px;   /*button*/
+	cursor: pointer;
+	color: #fcac45;
+	border: 1px solid #fcac45;
+	background-color: transparent;
+}
+input[type=button]:hover
+{
+	color: #181818;
+	background-color: #fcac45;
+	border-color: #fcac45;
+	box-shadow: 0 0 5px rgb(255, 184, 77);
+}
+h2{
+	color: #000;
+}
+::placeholder {
+	color: aliceblue;
+	opacity: 0.8;
+}
