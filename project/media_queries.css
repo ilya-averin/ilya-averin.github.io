@@ -12,6 +12,11 @@
 		/*flex-direction: column;*/
 		grid-template-columns: auto;
 	}
+	main .main_welcom
+	{
+		padding: 250px 0 250px 0;
+
+	}
 }
 @media screen and (max-width: 1200px)
 {
