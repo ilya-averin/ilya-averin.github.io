@@ -242,14 +242,14 @@
 	}*/
 	.form_inputs{
 		flex-direction: column;
-		
+		text-align: center;
 	}
-	/*input{
+	input{
 	width: 345px;
 	height: 50px;
 	font-size: 15px;
 	margin-bottom: 20px;
-	}*/
+	}
 
 
 
@@ -262,14 +262,14 @@
 
 	.form_inputs{
 		flex-direction: column;
-		/*text-align: center;*/
+		text-align: center;
 	}
-	/*input{
+	input{
 	width: 315px;
 	height: 30px;
 	font-size: 15px;
 	margin-bottom: 20px;
-	}*/
+	}
 }
 
 @media (min-width: 1200px){
@@ -281,10 +281,10 @@
 		flex-direction: row;
 		text-align: center;
 	}
-	/*input{
+	input{
 	width: 100%;
 	height: 30px;
 	font-size: 15px;
 	margin-bottom: 20px;
-	}*/
+	}
 }
