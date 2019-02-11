@@ -284,7 +284,7 @@ button {
   background-color: transparent;
   /*border-color: #fcac45;*/
   cursor: pointer;
-  margin-right: 8px;
+  margin-right: 3px;
   /*margin-left: 9px;*/
   transition: color .20s;
   vertical-align: middle;
