@@ -5,6 +5,19 @@
 		/*flex-direction: column;*/
 		grid-template-columns: auto;
 	}
+	
+	
+	.form_inputs{
+		flex-direction: column;
+		text-align: center;
+	}
+	input[type="text"]{
+	width: 98%;
+	}
+	
+	
+	
+	
 }
 @media (max-width: 767px){
 	.line1 img/*:not(:first-child)*/{
@@ -12,6 +25,17 @@
 		/*flex-direction: column;*/
 		grid-template-columns: auto;
 	}
+	
+	
+	.form_inputs{
+		flex-direction: column;
+		text-align: center;
+	}
+	input[type="text"]{
+	width: 98%;
+	}
+	
+	
 	
 }
 @media screen and (max-width: 1200px)
@@ -26,9 +50,25 @@
 		/*grid-template-columns: auto;*/
 	}
 	
+	
+	
+	.form_inputs{
+		flex-direction: column;
+		text-align: center;
+	}
+	input[type="text"]{
+	width: 98%;
+	}
+	
+	
+	
 }
 @media (min-width: 1200px){
-
+	
+	
+	
+	
+	
 }
 
 @media screen and (max-width: 1105px)
@@ -42,6 +82,18 @@
 		/*flex-direction: column;*/
 		grid-template-columns: auto;
 	}
+	
+	
+	.form_inputs{
+		flex-direction: column;
+		text-align: center;
+	}
+	input[type="text"]{
+	width: 98%;
+	}
+	
+	
+	
 }
 
 @media screen and (max-width: 1010px)
@@ -156,6 +208,15 @@
 		/*display: none;*/
 		/*flex-direction: column;*/
 		grid-template-columns: auto;
+	}
+	
+	
+	.form_inputs{
+		flex-direction: column;
+		text-align: center;
+	}
+	input[type="text"]{
+	width: 98%;
 	}
 }
 
